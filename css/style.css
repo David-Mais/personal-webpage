@@ -1,0 +1,70 @@
+:root {
+  --armadillo: #49453F;
+  --sorellbrown: #CFB695;
+  --neptune: #88B6BD;
+  --balihai: #8197A7;
+}
+
+/* 
+armadillo: #49453F
+sorellbrown: #CFB695
+neptune: #88B6BD
+balihai: #8197A7
+misty rose: #EAD1DC
+sage green: #9CAE9B
+*/
+
+/* GLOBAL STYLES
+_________________________________________*/
+
+body {
+  background:var(--balihai);
+}
+
+/* link styles */
+
+a {
+  color: #9CAE9B;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #EAD1DC;
+  text-decoration: none;
+}
+
+/* HOME
+_________________________________________*/
+
+.home {
+  background: url("../images/futuristic-setup.png") no-repeat;
+  background-size: contain;
+}
+
+.home .content-wrapper {
+  background: rgb(255 255 255 / 0.9);
+}
+
+/* RESUME
+_________________________________________*/
+
+/* Profile
+_________________________________________*/
+
+/* Projects
+_________________________________________*/
+
+/* Work Experience
+_________________________________________*/
+
+/* Education
+_________________________________________*/
+
+/* FOOTER
+_________________________________________*/
+
+footer {
+  background-color: #222;
+  color: #88B6BD;
+}
